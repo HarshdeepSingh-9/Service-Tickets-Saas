@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const cors = require("cors");
 const http = require("http");
-const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
@@ -97,7 +96,6 @@ const { seedIfEmpty } = require("./seed/seed");
 async function startServer() {
   try {
     const MONGO_URL = process.env.MONGO_URL || "mongodb://127.0.0.1:27017/solvex_a3";
-    await mongoose.connect(MONGO_URL);
     await seedIfEmpty();
     const PORT = Number(process.env.PORT || 8080);
     server.listen(PORT, () => {
