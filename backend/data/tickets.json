@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1770760625127,
+    "title": "VPN access issue",
+    "type": "support",
+    "description": "Cannot connect to corporate VPN on home Wi\u2011Fi. Error: TLS handshake failed.",
+    "userEmail": "carol",
+    "status": "Open",
+    "messages": []
+  },
+  {
+    "id": 1770760625128,
+    "title": "UI buttons overlap on mobile",
+    "type": "bug",
+    "description": "On iPhone Safari, the action buttons overlap in the ticket detail view.",
+    "userEmail": "dave",
+    "status": "Open",
+    "messages": []
+  },
+  {
+    "id": 1770760625129,
+    "title": "Request: Export ticket to PDF",
+    "type": "feature",
+    "description": "Need ability to export ticket timeline (messages + metadata) as a PDF for audit purposes.",
+    "userEmail": "eve",
+    "status": "Open",
+    "messages": []
+  },
+  {
+    "id": 1770760625131,
+    "title": "Large file upload crashes app",
+    "type": "bug",
+    "description": "Uploading a 1.5GB zip causes the app to crash and reload.",
+    "userEmail": "frank",
+    "status": "Resolved",
+    "messages": [
+      {
+        "message": "Please compress the file to < 500MB and retry. We are investigating memory limits.",
+        "agent": "Agent",
+        "timestamp": "2026-02-10T22:56:10.512Z"
+      }
+    ]
+  },
+  {
+    "id": 1770857614667,
+    "title": "Cache memory error and lag",
+    "type": "other",
+    "description": "Browser becomes slow after opening dashboard for a while. Suspect cache storage growth.",
+    "userEmail": "harshdeep",
+    "status": "Open",
+    "messages": [
+      {
+        "message": "Try clearing site data and disabling heavy extensions. We'll check client logs.",
+        "agent": "Agent",
+        "timestamp": "2026-02-12T00:57:02.273Z"
+      }
+    ]
+  }
+]
